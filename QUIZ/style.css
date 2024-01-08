@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(54, 51, 51);
+}
+.app{
+    background-color: rgb(255, 255, 255);
+    max-width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+.app h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.quiz{
+    margin: 10px 0;
+}
+.quiz h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.answer-button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+.answer-button button{
+    text-align: left;
+    padding: 10px 0 ;
+    padding-left: 30px;
+    background-color: rgb(245, 238, 238);
+    border: none;
+    outline: 1px ;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.answer-button button:hover{
+    background-color: bisque;
+}
+#next-btn{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(24, 10, 211, 0.349);
+    border: none;
+    outline: 1px ;
+    border-radius: 7px;
+    font-size: 15px;
+    /* display: none; */
+}
+#next-btn:hover{
+    background-color: rgba(3, 3, 63, 0.872);
+    color: white;
+}
