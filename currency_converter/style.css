@@ -108,3 +108,9 @@ form input {
     border-radius: 7px;
 
 }
+
+.msg button hover {
+    background-color:rgb(61, 5, 114);
+    cursor: pointer;
+
+}

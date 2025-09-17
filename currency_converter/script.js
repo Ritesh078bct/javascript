@@ -3,7 +3,7 @@ const baseURL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/c
 const dropdowns = document.querySelectorAll(".select-container select");
 const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
-const result = document.querySelector(".msg p");
+const result = document.querySelector("#finalresult");
 // const image=document.querySelectorAll(".select-container img");
 // console.log(image);
 // console.log(dropdowns);
